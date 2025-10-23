@@ -1,0 +1,7 @@
+function [len, first, last] = stringInf(str)
+% input str (making a string array)
+% output len is numb of char, first is first char, last is last char wowwww
+len = length(str); % how many char ty
+first = str(1);
+last = str(end);
+end

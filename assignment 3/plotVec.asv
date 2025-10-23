@@ -1,0 +1,9 @@
+function plotVec(x, y)
+% ugh so much explaining, inputs x,y (vecs of the same length)
+% outputs none bc its just drawing my ploooot
+% '-o-
+plot(x, y, '-o')
+title('My Ploooot')
+xlabel('X vals')
+ylabel('Y vals')
+end

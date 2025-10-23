@@ -1,0 +1,6 @@
+function [sumVal, diffVal, prodVal, maxVal] = numbMath(a, b) % calling all numbers numb bc im getting sick and i myself am numb
+sumVal = a + b; 
+diffVal = a - b;
+prodVal = a * b;
+maxVal = max(a, b);
+end

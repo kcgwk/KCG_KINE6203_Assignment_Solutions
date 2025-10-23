@@ -1,0 +1,4 @@
+function valid = isTri(sides)
+sides = sort(sides); % this the input, [a b c] t
+valid = (sides(1) + sides(2) > sides(3));
+end
